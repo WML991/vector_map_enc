@@ -69,3 +69,4 @@ This folder contains the core implementation of the project, including functions
 
 - Ensure the `data` directory contains the required shapefiles.
 - Modify the `shapefile_path` in `main.py` to point to the desired shapefile.
+-  Due to the large size of the dataset, we provide a link for access: (https://download.geofabrik.de/)
