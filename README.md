@@ -61,7 +61,7 @@ This folder contains the core implementation of the project, including functions
 
 ## Dependencies
 
-- Python 3.x
+- Python 3.9
 - NumPy
 - Matplotlib
 
