@@ -64,7 +64,6 @@ This folder contains the core implementation of the project, including functions
 - Python 3.x
 - NumPy
 - Matplotlib
-- PyShp (for shapefile handling)
 
 ## Notes
 
