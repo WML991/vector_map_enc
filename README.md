@@ -30,16 +30,11 @@ This folder contains the core implementation of the project, including functions
   Generates SM4 encryption keys and initialization vectors (IVs).  
   - `generate_key_and_iv_combined`: Generates a key and IV based on chaotic sequences.
 
-- **`main2.py`**  
+- **`main.py`**  
   The main script that integrates all components.  
   - Reads shapefile data and extracts coordinates.  
   - Computes chaotic sequences and dynamically selects them.  
   - Scrambles coordinates, encrypts them using SM4, and performs decryption and unscrambling.  
-  - Displays the results at each step.
-
-- **`test`**  
-  Contains testing utilities and visualization tools.  
-  - `final_test.py`: Includes functions for displaying the original, scrambled, encrypted, and decrypted maps.
 
 ## Key Features
 
@@ -55,17 +50,14 @@ This folder contains the core implementation of the project, including functions
 4. **SM4 Encryption**  
    - Encrypts and decrypts data using the SM4 algorithm with dynamically generated keys and IVs.
 
-5. **Visualization**  
-   - Provides tools to visualize the original, scrambled, encrypted, and decrypted data.
 
 ## How to Use
 
 1. Place the shapefile in the `data` directory.
-2. Run the `main2.py` script to process the shapefile.
+2. Run the `main.py` script to process the shapefile.
 3. The script will:
    - Extract coordinates.
    - Scramble, encrypt, decrypt, and unscramble the data.
-   - Display the results at each step.
 
 ## Dependencies
 
@@ -77,4 +69,4 @@ This folder contains the core implementation of the project, including functions
 ## Notes
 
 - Ensure the `data` directory contains the required shapefiles.
-- Modify the `shapefile_path` in `main2.py` to point to the desired shapefile.
+- Modify the `shapefile_path` in `main.py` to point to the desired shapefile.
