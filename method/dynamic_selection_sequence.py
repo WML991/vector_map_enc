@@ -19,4 +19,3 @@ def dynamic_selection(X, Y, Z, W ,x_coords, y_coords):
     Q4 = index_map[remaining_indices.pop()]
 
     return Q1, Q2, Q3, Q4
-
